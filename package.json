@@ -1,0 +1,29 @@
+{
+  "name": "com.secret6.shaderpackage",
+  "version": "1.0.0",
+  "displayName": "S6 Shader Package",
+  "description": "This is a package of various shaders and materials",
+  "unity": "2021.3",
+  "unityRelease": "7f1",
+  "documentationUrl": "https://docs.google.com/document/d/1Z_7Tf0D5_QJjJPiIA0V5eo_uO_C7MvynY-leAwU4Tsg",
+  "hideInEditor": "false",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+  },
+  "keywords": [
+    "shaders",
+    "shader",
+    "graph",
+    "urp",
+    "material",
+    "terrain",
+    "water",
+    "procedural"
+  ],
+  "author": {
+    "name": "Philip Villaluz",
+    "email": "philip.villaluz@secret6.com",
+    "url": "https://www.unity3d.com"
+  }
+}

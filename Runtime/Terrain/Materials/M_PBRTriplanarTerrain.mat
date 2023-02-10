@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3581895743405505575
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_PBRTriplanarTerrain
+  m_Shader: {fileID: -6465566751694194690, guid: 2d4e4d2d29e3f9d46bbf06edb98a7e6b,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Side_AO:
+        m_Texture: {fileID: 2800000, guid: 3db3d8fcad5a4ee43813504bed0f0b09, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_Albedo:
+        m_Texture: {fileID: 2800000, guid: 2891547aefc2f1843bc8533d21d8bb62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_BG_Albedo:
+        m_Texture: {fileID: 2800000, guid: 2891547aefc2f1843bc8533d21d8bb62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_Detail_Albedo:
+        m_Texture: {fileID: 2800000, guid: 2891547aefc2f1843bc8533d21d8bb62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_Displacement:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_Metalness:
+        m_Texture: {fileID: 2800000, guid: aca0a306c6eff8341b8d40555f00a56f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_Normal:
+        m_Texture: {fileID: 2800000, guid: a64894d21a9658a4393c5eb8dfddf8f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side_Roughness:
+        m_Texture: {fileID: 2800000, guid: 81f684c603e98b245a918e5a70007b79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_AO:
+        m_Texture: {fileID: 2800000, guid: f6cf9a971dfe5234a976f9c3a8f0794c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Albedo:
+        m_Texture: {fileID: 2800000, guid: d3afb968ec89a0a4393cff924e997ddf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Displacement:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Metalness:
+        m_Texture: {fileID: 2800000, guid: 5322b37151329e74695d0acf5fa3bf26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Normal:
+        m_Texture: {fileID: 2800000, guid: 095e35b90f3554e4b8b790b5be689528, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Roughness:
+        m_Texture: {fileID: 2800000, guid: 4c582460b61a5f548b287ce33213bea2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_6a1182acdfed41cd89ef5035dad0faae_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e6cdd9e4add94c94ca46b44a1461f0b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_77bf3d84ea1745fab0c7bba66345c30b_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_ae693d9dd71c48d99c9c98a0923a98af_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e6cdd9e4add94c94ca46b44a1461f0b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_deeeec0abb8142348290a18b301b95be_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Float: 0
+    - _Metallic_Mask_Blending: 0
+    - _Noise_Scale: -0.08
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Side_Gradient_Blending: 1.24
+    - _Side_Hard_Edge: -0.66
+    - _Side_Soft_Edge: 0
+    - _Smoothness_Mask_Blending: 0
+    - _Top_Gradient_Blending: 0
+    - _Top_Hard_Edge: 0.38
+    - _Top_Soft_Edge: 0.48
+    m_Colors: []
+  m_BuildTextureStacks: []

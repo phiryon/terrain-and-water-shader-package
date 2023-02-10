@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-687222594845666689
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ToonFlowingWater_River
+  m_Shader: {fileID: -6465566751694194690, guid: 9859df789dab7f74eb9e1c495347bf50,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Contact_Foam_Blend: 0.636
+    - _Dark_Foam_Threshold: 0.553
+    - _Foam_Detail: 0.69
+    - _Foam_Inner_Thickness: 1.43
+    - _Foam_Length: 1
+    - _Foam_Outer_Thickness: 1.45
+    - _Foam_Peak_Threshold: 0
+    - _Foam_Scale: 0.46
+    - _Foam_Thickness: 0.76
+    - _Foam_Turb_Scale: 5
+    - _Foam_Turbulence: 0.3
+    - _Light_Foam_Threshold: 0.381
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _R_Bottom_Threshold: 0.3
+    - _R_Distortion_Scale: 0.25
+    - _R_Distortion_Velocity: 23.77
+    - _R_Noise_Scale: 0.95
+    - _R_Top_Threshold: 0.94
+    - _Turbulence_Scale: -32.1
+    - _Velocity_Mult: 1
+    - _W_Bottom_Threshold: -2
+    - _W_Distortion_Scale: 1
+    - _W_Distortion_Velocity: 20
+    - _W_Noise_Scale: 0.26
+    - _W_Top_Threshold: -2
+    - _Wave_Amplitude: 0.1
+    - _Wave_Frequency: 5
+    - _Wave_Rotation: 1
+    - _Wave_Velocity: 0.5
+    m_Colors:
+    - _Current_Velocity: {r: 0, g: -13.27, b: 0, a: 0}
+    - _Dark_Contact_Foam_Color: {r: 0.28627446, g: 0.5686274, b: 0.6980392, a: 0}
+    - _Dark_Foam_Offset: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _Dark_Surface_Foam_Color: {r: 0.29803917, g: 0.34901956, b: 0.41568628, a: 1}
+    - _Foam_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Light_Contact_Foam_Color: {r: 0.6745098, g: 0.9019608, b: 1, a: 1}
+    - _Light_Surface_Foam_Color: {r: 0.14396583, g: 0.20158097, b: 0.2264151, a: 1}
+    - _River_Current_Color: {r: 0.6, g: 0.9921569, b: 1, a: 0}
+    - _TurbulenceVelocity: {r: 1, g: 0, b: 0, a: 0}
+    - _Water_Color: {r: 0, g: 0.6901961, b: 1, a: 1}
+    - _Waterfall_Current_Color: {r: 0.6, g: 0.9921569, b: 1, a: 0}
+  m_BuildTextureStacks: []

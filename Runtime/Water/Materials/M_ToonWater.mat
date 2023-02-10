@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ToonWater
+  m_Shader: {fileID: -6465566751694194690, guid: 4948680e62903d941b5597160f6b1cc1,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Contact_Foam_Blend: 0.709
+    - _Dark_Foam_Threshold: 0.825
+    - _Float: 50
+    - _Float_1: 0.27
+    - _Float_2: 0.74
+    - _Foam_Detail: 0.72
+    - _Foam_Inner_Thickness: 2.03
+    - _Foam_Length: 3.43
+    - _Foam_Outer_Thickness: 0.87
+    - _Foam_Peak_Threshold: 0
+    - _Foam_Scale: 0.86
+    - _Foam_Thickness: 0.3
+    - _Foam_Turb_Scale: 2.76
+    - _Foam_Turbulence: 0.32
+    - _Foam_Turbulence_Scale: 1.51
+    - _Light_Foam_Threshold: 0.182
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Top_Threshold: 0.397
+    - _Turbulence_Scale: 35.2
+    - _Velocity_Multiplier: -0.1
+    - _Wave_Amplitude: 0.1
+    - _Wave_Frequency: 5.65
+    - _Wave_Rotation: 1
+    - _Wave_Velocity: 0.43
+    m_Colors:
+    - _Current_Velocity: {r: 1, g: 1, b: 0, a: 0}
+    - _Dark_Contact_Foam_Color: {r: 0.28627446, g: 0.5686274, b: 0.6980392, a: 0}
+    - _Dark_Foam_Offset: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _Dark_Surface_Foam_Color: {r: 0.28097185, g: 0.37900594, b: 0.5188679, a: 1}
+    - _Foam_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Light_Contact_Foam_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Light_Surface_Foam_Color: {r: 0.6745098, g: 0.90196085, b: 1, a: 1}
+    - _TurbulenceVelocity: {r: 0, g: 1, b: 0, a: 0}
+    - _Water_Color: {r: 0, g: 0.6901961, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &928520544644850575
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

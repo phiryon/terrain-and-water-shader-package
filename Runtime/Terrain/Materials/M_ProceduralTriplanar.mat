@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1679426652976831658
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ProceduralTriplanar
+  m_Shader: {fileID: -6465566751694194690, guid: ddcaf3e04495ca040923ac2f77e51ba5,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Triplanar_beb49aeda8794dd1bff54dab0aad4403_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e6cdd9e4add94c94ca46b44a1461f0b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Metallic_Mask_Blending: 0
+    - _NoiseDetail: 1
+    - _Noise_Detail: 1.87
+    - _Noise_Inner_Thickness: 1.78
+    - _Noise_Outer_Thickness: 2.33
+    - _Noise_Peak_Threshold: 1
+    - _Noise_Scale: 1
+    - _Noise_Scale_1: 4.49
+    - _Noise_Turb_Strength_1: 3.19
+    - _Noise_Turbulence: 0.82
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Side_Gradient_Blending: 0.11
+    - _Side_Hard_Edge: 0.57
+    - _Side_Soft_Edge: 0.375
+    - _Smoothness_Mask_Blending: 0
+    - _Top_Gradient_Blending: 0.955
+    - _Top_Hard_Edge: 1.88
+    - _Top_Soft_Edge: 1.84
+    m_Colors:
+    - _Side_BG_Color: {r: 0.36407968, g: 0.38979706, b: 0.39622638, a: 1}
+    - _Side_Detail_Color: {r: 0.44887853, g: 0.4946037, b: 0.509434, a: 1}
+    - _Top_Color: {r: 0, g: 1, b: 0.4863389, a: 1}
+  m_BuildTextureStacks: []
